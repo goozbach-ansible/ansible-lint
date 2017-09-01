@@ -3,4 +3,4 @@ Ansible lint container built on top of `alpine:latest`.
 
 # Usage
 
-    docker run -v ${PWD}:/code/ goozbach/ansible-lint site.yml
+    docker run --rm -v ${PWD}:/code/ goozbach/ansible-lint site.yml
